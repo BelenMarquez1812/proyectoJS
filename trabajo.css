@@ -1,0 +1,160 @@
+.grupo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+.precios1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 230px;
+    height: 210px;
+    text-align: justify;
+    border: 2px solid #6866d1;
+    margin: 1% 1%;
+  }
+  
+  
+.precios2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 230px;
+    height: 210px;
+    text-align: justify;
+    border: 2px solid #54ccc4;
+    margin: 1% 1%;
+  }
+  
+.precios3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 230px;
+    height: 210px;
+    text-align: justify;
+    border: 2px solid #eb9c0a;
+    margin: 1% 1%;
+ }
+
+.row {
+    padding-left: 30%;
+    padding-right: 30%;
+ }
+
+  
+.descuento {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.especificacion {
+  color: #838282;
+}
+
+.titulo1 {
+  font-weight: 450;
+  font-size: 18px;
+  text-align: center; 
+}
+
+.titulo3 {
+  font-weight: 450;
+  font-size: 18px;
+  text-align: center; 
+}
+
+.titulo2 {
+  font-weight: bold;
+  text-align: center; 
+  font-size: 40px;
+}
+
+.resultado {
+  justify-content: center;
+  background-color: #cce5ff;
+  height: 40px;
+  padding-top: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#total {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding-left: 2%;
+  font-size: 17px;
+}
+
+.final {
+  background-color: #21516a;
+  padding: 3%;
+  text-align: center;
+  color: #fafafa;
+  font-size: 17px;
+}
+
+a {
+  color: rgb(243, 243, 243);
+  text-decoration:none;
+}
+
+ul li{
+  display: inline;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+
+@media (max-width:900px) {
+  .grupo {
+    flex-direction: column;
+    padding-top: 8%;
+  }
+
+  .precios {
+    flex-direction: column;
+    padding-top: 8%;
+  }
+
+  .row {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .precios1 {
+    width: 250px;
+    height: 230px;
+  }
+  
+  .precios2 {
+    width: 250px;
+    height: 230px;
+  }
+  
+  .precios3 {
+    width: 250px;
+    height: 230px;
+  }
+
+  .descuento {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+
+  #Titulo1 {
+    font-size: 30px;
+  }
+  
+}
